@@ -1,0 +1,66 @@
+body{
+    padding:20px 150px 20px;
+}
+.main-content div {
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.main-content {
+    display: flex;
+  
+    justify-content: flex-start;
+}
+
+.content-box1 {
+    border: 1px solid black;
+    order: 1; /* for switching boxes */
+    padding: 10px;
+    flex: 1;
+}
+
+.content-box2 {
+    border: 1px solid black;
+    order: 2;
+    padding: 10px;
+    flex: 4;
+}
+
+.horzintal-line{
+    border: 1px solid black;
+}
+.carousel{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+.fa {  
+    padding: 10px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+ 
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+  }  
+ 
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
